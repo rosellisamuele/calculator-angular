@@ -12,6 +12,3 @@ import { CalcKeyboardComponent } from './calc-keyboard/calc-keyboard.component';
 export class AppComponent {
   title = 'calculator-angular';
 }
-
-
-

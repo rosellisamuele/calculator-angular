@@ -1,0 +1,37 @@
+
+    <section>
+      <mat-card><h1>{{ output }}</h1></mat-card>
+
+      <mat-grid-list cols="5" rowHeight="2:1">
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(7)">7</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(8)">8</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(9)">9</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="sum()">+</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="back()">Back</button></mat-grid-tile>
+
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(4)">4</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(5)">5</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(6)">6</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="sub()">-</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">Ans</button></mat-grid-tile>
+
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(1)">1</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(2)">2</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(3)">3</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="mul()">x</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">M+</button></mat-grid-tile>
+
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="number(0)">0</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="decimal('.')">.</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">EXP</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="div()">/</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">M-</button></mat-grid-tile>
+        
+        <mat-grid-tile><button mat-raised-button color="primary">+-</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">RND</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="autoCanc()">AC</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary" (click)="confirm()">=</button></mat-grid-tile>
+        <mat-grid-tile><button mat-raised-button color="primary">MR</button></mat-grid-tile>
+      </mat-grid-list>
+    </section>
+
